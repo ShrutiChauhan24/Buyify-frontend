@@ -55,7 +55,7 @@ const AdminSettings = () => {
   const handleSave = async () => {
     try {
       const res = await axios.patch(
-        "http://localhost:4000/api/settings/add-store-info",
+        `${import.meta.env.VITE_API_URL}/api/settings/add-store-info`,
         {
          storeName : data.storeName,
          contactEmail: data.email,
