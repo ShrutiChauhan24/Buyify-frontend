@@ -108,7 +108,9 @@ useEffect(()=>{
             </tbody>
           </table>
 
-          <div className="md:hidden space-y-4">
+        </div>
+
+           <div className="md:hidden space-y-4">
   {metricsData?.recentOrders?.map((order) => (
     <div
       key={order._id}
@@ -143,8 +145,6 @@ useEffect(()=>{
     </div>
   ))}
 </div>
-
-        </div>
       </section>
     </main>
   );
