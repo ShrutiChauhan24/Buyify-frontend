@@ -62,7 +62,15 @@ useEffect(()=>{
 
       <Link
         to={`/shop/products/category/${cat?._id}`}
-        className="mt-2 inline-block px-4 py-1.5 rounded-full border border-white text-xs sm:text-sm hover:bg-white hover:text-black transition"
+        className=" mt-3
+    w-full sm:w-auto
+    text-center
+    px-4 py-2
+    rounded-full
+    border border-white
+    text-sm
+    hover:bg-white hover:text-black
+    transition"
       >
         Shop Now
       </Link>
