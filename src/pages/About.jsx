@@ -97,7 +97,7 @@ const About = () => {
         </div>
 
         <img
-          src="https://media.istockphoto.com/id/1572391955/photo/clothing-boutique-with-clothes-and-accessories-on-display.jpg"
+          src="https://media.istockphoto.com/id/1572391955/photo/clothing-boutique-with-clothes-and-accessories-on-display.jpg?s=612x612&w=0&k=20&c=7Wz2BgEet3vbGQA9g4M0NDZzV3pMTa8t8UDIcOq_r4E="
           alt="Why Choose Us"
           className="rounded-3xl object-cover w-full h-64 sm:h-80 md:h-96 order-2 md:order-1"
         />
