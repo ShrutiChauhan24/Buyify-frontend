@@ -81,7 +81,7 @@ useEffect(()=>{
           Recent Orders
         </h2>
 
-        <div className="overflow-x-auto">
+        <div className="hidden md:block overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="text-left text-[#6B6B6B] border-b">
@@ -107,6 +107,43 @@ useEffect(()=>{
               ))}
             </tbody>
           </table>
+
+          <div className="md:hidden space-y-4">
+  {metricsData?.recentOrders?.map((order) => (
+    <div
+      key={order._id}
+      className="bg-gray-50 rounded-xl p-4 shadow-sm border"
+    >
+      <div className="flex justify-between mb-2">
+        <span className="text-sm text-gray-500">Order ID</span>
+        <span className="font-medium">{order?.orderId}</span>
+      </div>
+
+      <div className="flex justify-between mb-2">
+        <span className="text-sm text-gray-500">Customer</span>
+        <span>{order?.user?.name}</span>
+      </div>
+
+      <div className="flex justify-between mb-2">
+        <span className="text-sm text-gray-500">Date</span>
+        <span>{new Date(order?.createdAt).toLocaleDateString()}</span>
+      </div>
+
+      <div className="flex justify-between mb-2">
+        <span className="text-sm text-gray-500">Amount</span>
+        <span className="font-medium">
+          ₹{order?.pricing?.total}
+        </span>
+      </div>
+
+      <div className="flex justify-between items-center">
+        <span className="text-sm text-gray-500">Status</span>
+        <StatusBadge status={order?.orderStatus} />
+      </div>
+    </div>
+  ))}
+</div>
+
         </div>
       </section>
     </main>
