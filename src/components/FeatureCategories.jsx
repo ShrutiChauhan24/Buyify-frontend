@@ -55,7 +55,7 @@ useEffect(()=>{
     <div className="absolute inset-0 bg-black/25 md:bg-black/30 md:opacity-0 md:group-hover:opacity-100 transition duration-500" />
 
     {/* Text */}
-    <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 text-white">
+    <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-auto text-white">
       <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
         {cat?.categoryName}
       </h3>

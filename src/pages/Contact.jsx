@@ -37,7 +37,7 @@ const Contact = () => {
       </div>
 
       {/* CONTENT */}
-      <div className="max-w-7xl mx-auto px-20 py-20 grid grid-cols-1 md:grid-cols-2 gap-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
         
         {/* CONTACT INFO */}
         <div>
@@ -117,7 +117,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-pink-700 transition"
+              className="w-full sm:w-auto bg-pink-600 text-white px-6 py-3 rounded-full font-medium text-sm sm:text-base hover:bg-pink-700 transition"
             >
               Send Message
             </button>
