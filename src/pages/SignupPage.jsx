@@ -12,13 +12,14 @@ const SignupPage = () => {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const [loading , setLoading] = useState(false)
-    const token = localStorage.getItem("token")
+    
     
         useEffect(()=>{
+          const token = localStorage.getItem("token")
          if(token) {
            navigate('/')
          }
-        },[])
+        },[navigate])
 
   const handleSignup = async (e)=>{
     e.preventDefault();
