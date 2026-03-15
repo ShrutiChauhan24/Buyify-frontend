@@ -1,14 +1,16 @@
 import axios from 'axios'
 import React from 'react'
 import { useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { setUserSignupLogin } from '../../redux/slices/authSlice'
 import { useDispatch } from 'react-redux'
 
 const AuthSuccessGoogle = () => {
   const navigate = useNavigate()
  const dispatch = useDispatch()
- const {token} = useParams();
+ const location = useLocation()
+
+  const token = new URLSearchParams(location.search).get("token")
 
   useEffect(()=>{
     const setUser = async ()=>{
