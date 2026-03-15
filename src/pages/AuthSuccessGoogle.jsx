@@ -26,6 +26,7 @@ const AuthSuccessGoogle = () => {
           token: token
         }))
       }
+      navigate('/')
       } catch (error) {
          navigate('/login')
       }
