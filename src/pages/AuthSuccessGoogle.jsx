@@ -17,7 +17,7 @@ const AuthSuccessGoogle = () => {
       try {
        const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/get-user-me-google`,{
          headers : {
-          Authorization : token
+          Authorization : `Bearer ${token}`
          }
        }) 
       if(res.data.success){
