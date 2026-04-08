@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const images = [
-  "https://images-cdn.ubuy.ae/660ca46a3ca7d70bac0d182a-htnbo-cute-crop-tops-for-women-summer.jpg",
+  "https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/NOVEMBER/22/QbijvVj1_43d8025aadae495ca5cae4f1a016d840.jpg",
   "https://cottonworld.net/cdn/shop/files/L-TSHIRT-11670-21499-RUST_1.jpg?v=1753678084",
   "https://i.pinimg.com/564x/26/3a/0f/263a0fdf076f9a01492efee554e59e64.jpg",
   "https://cdn.shopify.com/s/files/1/0552/7322/6351/files/oversized-hoodie-mockup-of-a-modern-woman-posing-at-a-studio-m26238_585x.png?v=1706429570",
