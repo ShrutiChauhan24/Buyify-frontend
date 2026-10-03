@@ -1,16 +1,97 @@
-# React + Vite
+# Buyify – MERN E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Buyify is a full-stack clothing e-commerce application built using the MERN stack. It provides a shopping experience for customers and management tools for administrators.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** https://buyify-frontend.vercel.app
+- **Backend:** https://buyify-backend.onrender.com
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User authentication with Google OAuth
+- Browse clothing products
+- Shopping cart and checkout
+- Product sizes and stock management
+- Razorpay payment integration
+- Order placement and tracking
+- Admin dashboard for managing products and orders
+- Responsive user interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- Redux
+
+**Backend**
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Google OAuth
+- Razorpay
+
+## Project Structure
+
+```
+Buyify-frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── ...
+├── package.json
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/ShrutiChauhan24/Buyify-frontend.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd Buyify-frontend
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Configure the required environment variables in a `.env` file according to your project configuration.
+
+5. Start the development server:
+
+```
+npm run dev
+```
+
+## Backend
+
+The backend is maintained in a separate repository.
+
+- **Backend Repository:** https://github.com/ShrutiChauhan24/Buyify-backend.git
+
+## Developer
+
+**Shruti Chauhan**
+Self-Taught Full-Stack MERN Developer
