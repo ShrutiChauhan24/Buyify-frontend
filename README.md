@@ -38,7 +38,7 @@ Buyify is a full-stack clothing e-commerce application built using the MERN stac
 
 ## Screenshots
 ### Homepage
-![Buyify Homepage](public/Homepage.png)
+![Buyify Homepage](public/HomePage.png)
 
 ### Product Listing
 ![Product Listing](public/Products.png)
