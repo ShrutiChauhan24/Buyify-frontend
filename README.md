@@ -36,6 +36,20 @@ Buyify is a full-stack clothing e-commerce application built using the MERN stac
 - Google OAuth
 - Razorpay
 
+## Screenshots
+### Homepage
+![Buyify Homepage](public/Homepage.png)
+
+### Product Listing
+![Product Listing](public/Products.png)
+
+### Cart
+![Shopping Cart](public/Cart.png)
+
+### Track Order Page
+![Admin Dashboard](public/TrackOrder.png)
+
+
 ## Project Structure
 
 ```
