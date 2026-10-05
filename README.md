@@ -108,4 +108,4 @@ The backend is maintained in a separate repository.
 ## Developer
 
 **Shruti Chauhan**
-Self-Taught Full-Stack MERN Developer
+Full-Stack MERN Developer
